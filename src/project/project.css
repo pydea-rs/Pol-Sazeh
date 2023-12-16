@@ -1,0 +1,16 @@
+.project-card {
+    opacity: 0.6;
+    transition: opacity 0.5s;
+    border-radius: 1rem;
+}
+
+.project-card:hover{
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.project-detail-text{
+    padding: 0.5rem;
+    color: white;
+    width: 100%;
+}

@@ -2,7 +2,7 @@
   "name": "polesazeh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pya-h.github.io/Pol-Sazeh",
+  "homepage": "https://pydea-rs.github.io/Pol-Sazeh",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -45,5 +45,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "pya-py",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react-router": "^5.1.20"
+  }
 }

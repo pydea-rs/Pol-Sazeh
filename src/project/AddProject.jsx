@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import TodoContext from "../../context/todoContext";
+import MainContext from "../containers/MainContext";
 
 const AddNewTask = () => {
-    const context = useContext(TodoContext);
+    const context = useContext(MainContext);
 
     return (
         <div className="w-50 mx-auto fixed-bottom mb-5 p-3 wrapper">

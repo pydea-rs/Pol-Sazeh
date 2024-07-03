@@ -33,7 +33,7 @@ const App = () => {
                                         <Route path="/" exact>
                                             <Projects />
                                         </Route>
-                                        <Route>
+                                        <Route path="/:path">
                                             <ProjectDetails />
                                         </Route>
                                     </Switch>

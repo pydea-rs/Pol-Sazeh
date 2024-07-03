@@ -14,7 +14,7 @@ const ProjectDetails = () => {
 
     useEffect(() => {
         try {
-            const route = currentRoute?.pathname ?? document.URL;
+            const route = currentRoute?.pathname ?? window.location.href;
             console.log(route)
             if (route) {
                 const routSections = route.split("/");
@@ -39,7 +39,7 @@ const ProjectDetails = () => {
             console.log(ex);
             setProject(null);
         }
-    }, [context, currentRoute]);
+    }, [context]);
     return project ? (
         <Container>
             <Row className="w-100 text-center m-0 p-0 mb-3">

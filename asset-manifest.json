@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Pol-Sazeh/static/css/main.a55c0bea.css",
-    "main.js": "/Pol-Sazeh/static/js/main.302120ca.js",
+    "main.js": "/Pol-Sazeh/static/js/main.3aefcc5b.js",
     "static/media/img_mehrzad_0.jpg": "/Pol-Sazeh/static/media/img_mehrzad_0.96f3ebbb4e82f3c087d7.jpg",
     "static/media/img_mehrzad_1.jpg": "/Pol-Sazeh/static/media/img_mehrzad_1.27022ceb61f9162b440b.jpg",
     "static/media/img_mehrzad_2.jpg": "/Pol-Sazeh/static/media/img_mehrzad_2.8b737a13de71c2288f8d.jpg",
     "index.html": "/Pol-Sazeh/index.html",
     "main.a55c0bea.css.map": "/Pol-Sazeh/static/css/main.a55c0bea.css.map",
-    "main.302120ca.js.map": "/Pol-Sazeh/static/js/main.302120ca.js.map"
+    "main.3aefcc5b.js.map": "/Pol-Sazeh/static/js/main.3aefcc5b.js.map"
   },
   "entrypoints": [
     "static/css/main.a55c0bea.css",
-    "static/js/main.302120ca.js"
+    "static/js/main.3aefcc5b.js"
   ]
 }

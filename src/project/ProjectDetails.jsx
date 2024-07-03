@@ -14,8 +14,10 @@ const ProjectDetails = () => {
 
     useEffect(() => {
         try {
-            if (currentRoute?.pathname) {
-                const routSections = currentRoute.pathname.split("/");
+            const route = currentRoute?.pathname ?? document.URL;
+            console.log(route)
+            if (route) {
+                const routSections = route.split("/");
                 console.log(routSections);
                 if (routSections instanceof Array) {
                     const routeId = +routSections[routSections.length - 1];
